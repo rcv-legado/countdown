@@ -3,7 +3,7 @@ import $ from 'jQuery';
 
 window.moment = moment;
 const houseSenateElection = moment("20181106");
-const presidentialElection = moment("20181103");
+const presidentialElection = moment("20201103");
 
 function fillBox(string, date, div, href) {
     const when = date.format("dddd, MMMM Do YYYY");
